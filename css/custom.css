@@ -2,6 +2,18 @@
  * CUSTOM STYLES
  *********************************************/
 
+h1, h2, h3 {
+	color: #ee9e24 !important;
+}
+
+ .reveal h1 {
+ 	text-shadow: none;
+ }
+
+h4, h5, h6, b {
+	color: #5896F5 !important;
+}
+
  .compensation_mobile {
  	height: 100%;
  	width: auto;
