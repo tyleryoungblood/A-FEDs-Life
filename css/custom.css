@@ -2,9 +2,31 @@
  * CUSTOM STYLES
  *********************************************/
 
- .compensation {
+ .compensation_mobile {
  	height: 100%;
  	width: auto;
+ }
+
+ .compensation {
+ 	/*margin-bottom: 0;*/
+ 	/*padding-bottom: 0;*/
+ }
+
+.reveal .slides>section, .reveal .slides>section>section {
+	height: 100%;
+}
+
+ .brokers_mobile {
+ 	max-height: none !important;
+ 	min-height: 0 !important;
+ 	max-width: none !important;
+ 	min-width: 0 !important;
+ 	width: 100%;
+ 	height: auto;
+ 	display: inline;
+ 	padding: 0;
+ 	margin: 0;
+ 	/*overflow: hidden;*/
  }
 
  .left {
@@ -20,5 +42,9 @@
  }
 
  .sidebar {
+ 	height: 100% !important;
  	width: 30%;
+ 	overflow: hidden !important;
+ 	margin: 0;
+ 	padding: 0;
  }
