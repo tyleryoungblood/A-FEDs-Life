@@ -1,0 +1,24 @@
+/*********************************************
+ * CUSTOM STYLES
+ *********************************************/
+
+ .compensation {
+ 	height: 100%;
+ 	width: auto;
+ }
+
+ .left {
+ 	float: left;
+ }
+
+ .clearfix {
+
+ }
+
+ .mainContent {
+ 	width: 70%;
+ }
+
+ .sidebar {
+ 	width: 30%;
+ }
