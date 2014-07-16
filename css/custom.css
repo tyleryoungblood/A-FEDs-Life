@@ -12,29 +12,25 @@
  	/*padding-bottom: 0;*/
  }
 
-.reveal .slides>section, .reveal .slides>section>section {
-	height: 100%;
+/*make daily changes image transparent*/
+.reveal section img.transparent {
+	background: none; 
+	border: none;
+	box-shadow: none;
 }
 
  .brokers_mobile {
- 	max-height: none !important;
- 	min-height: 0 !important;
- 	max-width: none !important;
- 	min-width: 0 !important;
- 	width: 100%;
- 	height: auto;
- 	display: inline;
- 	padding: 0;
- 	margin: 0;
- 	/*overflow: hidden;*/
+ 	height: 100%;
+ 	width: auto;
+ }
+
+ .producers {
+ 	max-height: 400px;
+ 	max-width: auto;
  }
 
  .left {
  	float: left;
- }
-
- .clearfix {
-
  }
 
  .mainContent {
@@ -42,9 +38,9 @@
  }
 
  .sidebar {
- 	height: 100% !important;
  	width: 30%;
- 	overflow: hidden !important;
- 	margin: 0;
- 	padding: 0;
+ }
+
+ .col-2 {
+ 	width: 49%;
  }
