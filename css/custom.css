@@ -15,13 +15,13 @@ h4, h5, h6, b {
 }
 
  .compensation_mobile {
- 	height: 100%;
+ 	max-height: 100%;
  	width: auto;
  }
 
  .compensation {
- 	/*margin-bottom: 0;*/
- 	/*padding-bottom: 0;*/
+ 	max-height: 100%;
+ 	width: auto;
  }
 
 /*make daily changes image transparent*/
@@ -32,13 +32,17 @@ h4, h5, h6, b {
 }
 
  .brokers_mobile {
- 	height: 100%;
+ 	max-height: 100%;
  	width: auto;
  }
 
  .producers {
- 	max-height: 400px;
- 	max-width: auto;
+ 	min-height:100%;
+ 	width: auto;
+ }
+
+ #producers {
+ 	height: 600px;
  }
 
  .left {
